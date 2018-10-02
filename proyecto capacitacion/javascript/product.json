@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Espiramatic Manual",
+    "description": "Modelo para producción, 100% metálica, con 60 punzones de acero y colocador de espirales."
+  },
+  {
+    "id": 2,
+    "name": "Colocadora de espirales Plásticos",
+    "description": "Colocación fácil y rápida de espirales, para trabajos exigentes."
+  },
+  {
+    "id": 3,
+    "name": "Minimax Plus",
+    "description": "Posee un ancho de perforación para papeles A3, almanaques, Calendarios."
+  },
+  {
+    "id": 4,
+    "name": "Perfuramax Plus",
+    "description": "Modelo industrial de alta producción. 35000 hojas por hora perforadas en 70 cm de ancho."
+  },
+  {
+    "id": 5,
+    "name": "Wiremac 2:1",
+    "description": "La opción para encuadernar hasta 350 hojas y giro de 360 grados."
+  },
+  {
+    "id": 6,
+    "name": "Cerradora de alambre Standard",
+    "description": "Cerrado eléctrico de alambre doble, con manos libres y accionamiento a pedal."
+  },
+  {
+    "id": 7,
+    "name": "Termoencuadernadora `TB300´",
+    "description": "Modelo en A4 que trabaja con carpetas frente transparente y dorso de cartulina"
+  },
+  {
+    "id": 8,
+    "name": "Carpeta 3 solapas",
+    "description": "A4 y Oficio."
+  },{
+    "id": 9,
+    "name": "Portacheques",
+    "description": "Variedad de tamaños y colores."
+  },
+  {
+    "id": 10,
+    "name": "Maletin",
+    "description": "Para el transporte de hojas Carta, A4 y oficio."
+  }
+]

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cualquiera SA</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+</head>
+<body>
+	<header class="encabezado">
+    	<div id = "headerLogo">
+    		<img id="logo" src="img/logo.png">
+			<h1>Cualquiera!</h1>
+		</div>
+    	<nav>
+    		<ul class="links">
+    			<li class="inav">Home</li>
+    			<li class="inav">Catalogo</li>
+    			<li class="inav">Locales</li>
+    			<li class="inav">Contacto</li>
+    		</ul>
+    	</nav>
+	</header>
+    <main>
+    	<!-- home -->
+    	<section class="SEC ">
+
+    		<div class="product">
+    		<h1>Nuestros Productos</h1>
+			<div class="productos">
+				<div>
+    				<p class="titulos">libros</p>
+    				<p class="contenido">mas de 5000 libros ordenados por titulo, autor y categoria. Todas las novedades del mundo literario.</p>
+    			</div>
+    			<div>
+    				<p class="titulos">articulos</p>
+    				<p class="contenido">todo tipo de utiles, articulos de oficina, e-books, maquinas de escribir. Trabajamos con una amplia gama de marcas.</p>
+    			</div>
+			</div>
+			</div>
+
+    	</section>
+		<!-- catalogo -->
+		<section class="SEC hide" id="catalogo">
+
+		</section>
+		<!-- locales -->
+		<section class="SEC hide" >
+			<div class="contenedor">
+
+   				<div class="contenedor1 ContenedorNuevo">
+   				<h2 style="padding-top: 0px; padding-bottom: 10px; font-weight: bold;">La Rosa De Papel</h2>
+       					<img id="imagen1" src="img/libreria1.jpg">
+   						<ul class="descrip" >
+   							<li  class="li descripcionL"> <span class="primero"> Descripcion </span> : Ubicada en el corazon de caballito, La Rosa de Papel solia ser un Almacen de Caños de plomo, <br>hoy en dia cumple el rol de institucion educativa en cuidado ambiental, ademas de ser la casa central de las librerias Cualquiera.</li>
+   							<li  class="li direccionL"> <span class="primero"> Direccion </span> : Ubicacion Caballito </li>
+   							<li  class="li telL"> <span class="primero"> Telefono </span> : 011 4250-6738</li>
+   							</ul>
+   				</div>
+
+   				<div class="contenedor2 ContenedorNuevo">
+   				<h2 style="padding-top: 0px; padding-bottom: 10px; font-weight: bold;" >Papeleria Cualquiera</h2>
+    				<img id="imagen2" src="img/libreria2.jpg">
+
+    				<ul class="descrip"  >
+    					<li class="li descripcionL"> <span class="primero"> Descripcion </span> : Sucursal Cualquiera Ubicada en el corazon de La ciudad de Moron, posee su propia imprenta de moneda dentro de sus instalaciones,<br> tras ser remodelada por mas de 2 decadas, se convirtio en una de las Tiendas mas Escalofriantes del mundo.</li>
+   						<li  class="li direccionL"> <span class="primero"> Direccion </span> : Ubicacion Moron </li>
+   						<li  class="li telL"> <span class="primero"> Telefono </span> : 011 4280-9178</li>
+    				</ul>
+
+				</div>
+				<div class="contenedor3 ContenedorNuevo">
+				<h2 style="padding-top: 0px; padding-bottom: 10px; font-weight: bold;">Cualquiera Acoyte</h2>
+   					<img id="imagen3" src="img/libreria3.jpg">
+
+   					<ul class="descrip">
+   						<li  class="li descripcionL"> <span class="primero"> Descripcion </span> : Sucursal ubicada en acoyte 7622, Cualquiera Acoyte es la 2da Biblioteca mas grande de toda latinoamerica, solia ser un famoso teatro, el cual fue subastado en 2006 y adquirido por el fundador de Cualquiera a solo 54.000USd.</li>
+   						<li  class="li direccionL"> <span class="primero"> Direccion </span> : Ubicacion Flores</li>
+   						<li  class="li telL"> <span class="primero"> Telefono </span> : 011 4200-9715</li>
+   					</ul>
+
+
+			</div>
+		</section>
+		<!-- contacto -->
+		<section class="SEC hide ContenedorNuevo" style="margin-bottom: 10px">
+			<form action="" id="contactos">
+				<label for="Nombre">Nombre</label>
+				<input id="Nombre" type="text" required placeholder="Ej: Juan Pedro">
+
+				<label for="Apellido">Apellido</label>
+				<input id="Apellido" type="text" required placeholder="Ej: Gonzales">
+
+				<label for="Telefono">Telefono</label>
+				<input id="Telefono" type="tel" required placeholder="Ej: 4999-9999">
+
+				<label for="Mail">Mail</label>
+				<input id="Mail" type="email" required placeholder="Ej: cualquiera@cualquiera.com">
+
+				<label for="CodigoPostal">Codigo Postal</label>
+				<input id="CodigoPostal" type="text" required placeholder="Ej: 1414">
+
+				<label for="TextArea">Escriba su comentario</label>
+				<textarea id="TextArea" cols="35" rows="10" required placeholder="Ej: Me gustaría comentarles que ..."></textarea>
+
+				<button id="Submit" type="submit" class="submitbtn" style="margin: 30px; margin-bottom: 0;">Enviar</button>
+			</form>
+		</section>
+    </main>
+	<footer class="pie">
+		<p>&copy; Copyright Khalil Barchini  - Todos los derechos reservados</p>
+	</footer>
+</body>
+<script type="text/javascript" src="javascript/js.js"></script>
+</html>
