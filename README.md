@@ -1,0 +1,1 @@
+# Uno de los proyectos mas completos con javascript , json , bootstrap. Este fue un proyecto para una libreria en el que hicimos con un amigo, es el unico trabajo que no lo hicimos responsive por falta de tiempo
